@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sopa de letras</title>
+  <link rel="stylesheet" type="text/css" href="css/wordfind.css">
+  <script type="text/javascript" src="scripts/SCORM_API_wrapper.js"></script>
+  <!-- <script src="scripts/scorprueba.js" charset="utf-8"></script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" charset="utf-8"></script>
+  <script src="scripts/wordfind.js" charset="utf-8"></script>
+  <script src="scripts/wordfindgame.js" charset="utf-8"></script>
+</head>
+
+<body onload="initCourse()">
+  <h1>
+    Sopa de letras
+  </h1>
+  <p>Arrastre la palabra sin soltar el mouse.</p>
+  <div class="container">
+    <div id="puzzle">
+    </div>
+    <div id="words">
+      <li><button id="add-word">Add word</button></li>
+    </div>
+  </div>
+  <script src="scripts/sopa.js" charset="utf-8"></script>
+</body>
+
+</html>
